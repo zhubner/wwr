@@ -1,0 +1,25 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+}
+
+@media screen  and (min-width: 602px) {
+    main {
+        grid-template-columns: 1fr ;
+        background-color: blue;
+    }
+}
+
+@media screen  and (min-width: 786px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        background-color: seagreen;
+    }
+}
+
+@media  screen and (min-width: 900px) {
+    main{
+    background-color: pink;
+}
+}

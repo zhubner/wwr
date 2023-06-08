@@ -1,0 +1,23 @@
+body {
+    background-color: forestgreen;
+}
+.header {
+    background-color: white;
+    color: gold;
+    grid-column: 2/5;
+}
+.paragraph {
+    background-color: black;
+    color: red;
+    grid-column: 2/4;
+}
+.footer {
+    background-color: white;
+    color: gold;
+    grid: column 1/-1;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}

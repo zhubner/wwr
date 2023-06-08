@@ -1,0 +1,34 @@
+body {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+img {
+    grid-column: 1/2;
+}
+h1 {
+    grid-column: 2/-1;
+}
+#email {
+    background-color: white;
+    grid-column: 2/-1;
+    border-color: black, 75px;
+    text-align: left;
+
+}
+#name {
+    background-color: white;
+    grid-column: 2/-1;
+}
+#subscribe {
+    background-color: #e39968;
+    grid-column: 2/-1;
+    text-align: center;
+    border-radius: 50px;
+    grid-row: 250px
+}
+
+
+sub - font manrope
+h2 - font Roboto Condensed
