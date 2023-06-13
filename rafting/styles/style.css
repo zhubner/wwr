@@ -21,14 +21,18 @@ nav a {
 
 #hero-msg h1 {
     text-align: center;
-    font-family: roboto;
-    font-size: 18px;
+    font-family: lora, sans-serif;;
+    font-size: 65px;
+    text-shadow: 2px 2px 3px black;
 }
 
 #hero-msg h4 {
     text-align: center;
     font-family: roboto;
-    font-size: 18px;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px black;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .button-box {
@@ -104,9 +108,9 @@ nav a:hover {
 }
 
 .msg h2 {
-    color: #EFEFD0;
+    color: #6A7152;
     font-family: lora, sans-serif;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .msg p {
@@ -162,7 +166,8 @@ footer .social img {
     color: #EFEFD0;
     font-family: lora, sans-serif;
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: 60px;
+    margin-bottom: 0px;
 }
 
 h4 {
