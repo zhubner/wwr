@@ -5,10 +5,12 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: black;
-  --secondary-color: #101010;
-  --accent1-color: white;
-  --accent2-color: #179107;
+
+  --primary-color: #789289;
+  --secondary-color: #0c353b;
+  --accent1-color: #155844;
+  --accent2-color: #9e5648;
+  --accent3-color: #179107;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Zen Kaku Gothic Antique";
@@ -19,12 +21,12 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: white; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: black;
+  --paragraph-background-color: #9E5648;
   --nav-link-color: white;
-  --nav-background-color: white;
+  --nav-background-color: #155844;
   --nav-hover-link-color: #2FF415;
-  --nav-hover-background-color: black;
-  background-color: #101010;
+  --nav-hover-background-color: #789289;
+  background-color: #0c353b;
 }
 
 
