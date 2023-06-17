@@ -269,6 +269,134 @@ main {
     grid-row: 2/3;
 }
 
+#river_content {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+#river-msg h1 {
+    text-align: center;
+    font-family: lora, sans-serif;;
+    font-size: 65px;
+    text-shadow: 2px 2px 3px black;
+}
+
+#river-msg h4 {
+    text-align: center;
+    font-family: roboto;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px black;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.river-grid, section {
+    text-align: center;
+    font-family: roboto;
+    font-size: 18px;
+    display: grid;
+    column-gap: 20px;
+}
+
+#rivers1-card {
+    grid-column: 1/-1;
+}
+
+.river-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.river1 {
+    border: 10px;
+    border-style: solid;
+    border-color: #6A7152;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-left: 75px;
+}
+
+.riverone {
+    background-color: #2B2D42;
+    border-radius: 15px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-right: 75px;
+    color: #EFEFD0;
+    line-height: 1.5em;
+}
+
+.riverone .r1t {
+    font-size: 30px;
+}
+
+#rivers2-card {
+    grid-column: 1/-1;
+    align-content: right;
+}
+
+.river2 {
+    border: 10px;
+    border-style: solid;
+    border-color: #6A7152;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 75px;
+}
+
+.river2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.rivertwo {
+    background-color: #2B2D42;
+    border-radius: 15px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 75px;
+    color: #EFEFD0;
+    line-height: 1.5em;
+}
+
+.rivertwo .r2t {
+    font-size: 30px;
+}
+
+#rivers3-card {
+    grid-column: 1/-1;
+}
+
+.river3 {
+    border: 10px;
+    border-style: solid;
+    border-color: #6A7152;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 75px;
+}
+
+.riverthree {
+    background-color: #2B2D42;
+    border-radius: 15px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-right: 75px;
+    color: #EFEFD0;
+    line-height: 1.5em;
+}
+
+.riverthree .r3t {
+    font-size: 30px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
