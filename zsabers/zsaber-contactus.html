@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Sabers | Contact Us | Form</title>
+    <link rel="stylesheet" href="styles/zsabers.css">
+    <style>form {
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 400px;
+        padding: 1em;
+        border: 15px solid #789289;
+        border-radius: 1em;
+        color: #9e5648;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      form li + li {
+        margin-top: 1em;
+      }
+      
+      label {
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+      }
+      
+      input,
+      textarea {
+        font: 1em Zen Kaku Gothic Antique, sans-serif;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid #999;
+      }
+      
+      input:focus,
+      textarea:focus {
+        border-color: #000;
+      }
+      
+      textarea {
+        vertical-align: top;
+        height: 5em;
+      }
+      
+      .button {
+        padding-left: 90px;
+      }
+      
+      button {
+        margin-left: 0.5em;
+        background-color: #789289;
+        color: white;
+      }
+      button:hover {
+        color: #2FF415;
+      }</style>
+</head>
+<body>
+    <header>
+        <a id = "logo_link" href = "zsabers.html">
+            <img class='logo' src="z-saberslogo.png" alt="Z-Sabers Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Workbench</a>
+            <a href="site-plan-rafting.html">Inspired Sabers</a>
+            <a href="contactus.html">Cart</a>
+        </nav>
+    </header>
+    <div id="feedback"></div>
+    <!-- <form action="/my-handling-form-page" method="post">…</form> -->
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" minlength="4" maxlength="8" size="10"/>
+          </li>
+          <li>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" size="30" required />
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message" rows="5" cols="33"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+        </ul>
+    </form>
+    <footer>
+        <p> Z-Sabers &copy; 20XX - Zachary Hubner</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="zsaber-contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facbook.com" target="_blank">
+                <img src="facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
