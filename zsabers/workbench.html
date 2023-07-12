@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Z-Sabers | Workbench</title>
     <link rel="stylesheet" href="styles/zsabers.css">
+    <style>
+        .dropbtn {
+          background-color: #789289;
+          color: #9e5648;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          margin-top: 25px;
+          border-radius: 10px;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: flexbox;
+          justify-content: space-around;
+          line-height: 3em;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color: #155844;
+        color: #2FF415;}
+    </style>
 </head>
 <body>
     <div>
@@ -14,26 +55,95 @@
             </a>
             <nav>
                 <a href="zsabers.html">Home</a>
-                <a href="workbench.html">Workbench</a>
+                <a href="html">Workbench</a>
                 <a href="inspiredsabers.html">Insipred Sabers</a>
                 <a href="cart.html">Cart</a>
             </nav>
         </header>
         <main class="workbench-grid">
-                <section class="rivers-card">
-                    <img class="card-img" src="workbench1.jpg" alt="river">
-                    <h2>Rivers</h2>
-                </section>
-                <section class="camping-card">
-                    <img class="card-img" src="workbench2.jpg" alt="tent in mountains">
-                    <img class="icon" src="workbench3.jpg" alt="fire icon">
-                    <h2>Camping</h2>
-                </section>
-                <section class="rapids-card">
-                    <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
-                    <img class="icon" src="images/oars.png" alt="oars icon">
-                    <h2>Rapids</h2>
-                </section>
+            <div class="test">
+                <div class="dropdown">
+                    <button class="dropbtn">EMITTER</button>
+                    <div class="dropdown-content">
+                      <a href="#">Emitter Option 1</a>
+                      <a href="#">Emitter Option 2</a>
+                      <a href="#">Emitter Option 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">CROSS GUARD</button>
+                    <div class="dropdown-content">
+                      <a href="#">Cross Guard Option 1</a>
+                      <a href="#">Cross Guard Option 2</a>
+                      <a href="#">Cross Guard Option 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">SWITCH</button>
+                    <div class="dropdown-content">
+                      <a href="#">Switch Option 1</a>
+                      <a href="#">Switch Option 2</a>
+                      <a href="#">Switch Option 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">BODY</button>
+                    <div class="dropdown-content">
+                      <a href="#">Body Option 1</a>
+                      <a href="#">Body Option 2</a>
+                      <a href="#">Body Option 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">POMMEL/COUPLER</button>
+                    <div class="dropdown-content">
+                      <a href="#">Pommel/Coupler Option 1</a>
+                      <a href="#">Pommel/Coupler Option 2</a>
+                      <a href="#">Pommel/Coupler Option 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">BODY 2</button>
+                    <div class="dropdown-content">
+                      <a href="#">Body 2 Option 1</a>
+                      <a href="#">Body 2 Option 2</a>
+                      <a href="#">Body 2 Option 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">SWITCH 2</button>
+                    <div class="dropdown-content">
+                      <a href="#">Switch 2 Option 1</a>
+                      <a href="#">Switch 2 Option 2</a>
+                      <a href="#">Switch 2 Option 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">CROSS GUARD 2</button>
+                    <div class="dropdown-content">
+                      <a href="#">Cross Guard 2 Option 1</a>
+                      <a href="#">Cross Guard 2 Option 2</a>
+                      <a href="#">Cross Guard 2 Option 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">EMITTER 2</button>
+                    <div class="dropdown-content">
+                      <a href="#">Emitter 2 Option 1</a>
+                      <a href="#">Emitter 2 Option 2</a>
+                      <a href="#">Emitter 2 Option 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="workbench-img">
+                <img src="workbench1.jpg" alt="workbenchimg">
+                <img src="workbench2.jpg" alt="workbenchimg">
+                <img src="workbench3.jpg" alt="workbenchimg">
+            </div>
+            <section class="workbench-content">
+                <h2>Disclaimer!</h2>
+                <p>I cant do what I truly wanted to do for this page so this is the alternative option that I came up with. What I had actually wanted to do was have a display on this page which would show you a 3D rendering of your saber. Each of the options under the saber parts catagories would be images with a title of the part. Whichever part you selected would then be added onto or swap out the previous piece in that catagory. You would have been able to rotate zoom in zoom out so that you could really see what your saber would look like. Also you would have been able to change the material primary, secondary, and accent colors of each indiviual part of your sabers.</p>
+            </section>
         </main>
         <footer>
             <p> Z-Sabers &copy; 20XX - Zachary Hubner</p>
