@@ -275,3 +275,48 @@ footer .social img {
     border-radius: 5px;
     text-align: center;
 }
+
+.subpage-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    gap: 25px;
+}
+
+.subpage-img {
+    width: 100%;
+}
+
+.receipt-cart {
+    background-color: #789289;
+    color: #9e5648;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 18px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sub-button-box {
+    background-color: #155844;
+    color: #9e5648;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 18px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.description {
+    color: white
+}
+
+h3 {
+    text-align: right;
+}
