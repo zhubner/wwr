@@ -229,7 +229,7 @@ footer .social img {
 
 .inspiredsabers-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 25px;
     margin-top: 25px;
@@ -238,29 +238,40 @@ footer .social img {
 }
 
 .card-img, .quigonjinn-card {
-    grid-column: 1/2;
+    grid-column: 2/4;
     grid-row: 1/2;
     width: 75%;
     height: 75%;
 }
 
 .card-img, .kananjarrus-card {
-    grid-column: 2/3;
+    grid-column: 4/6;
     grid-row: 1/2;
     width: 75%;
     height: 75%;
 }
 
 .card-img, .countdooku-card {
-    grid-column: 1/2;
+    grid-column: 2/4;
     grid-row: 2/3;
     width: 75%;
     height: 75%;
 }
 
 .card-img, .darthvader-card {
-    grid-column: 2/3;
+    grid-column: 4/6;
     grid-row: 2/3;
     width: 75%;
     height: 75%;
+}
+
+.button-box {
+    background-color: #789289;
+    color: #9e5648;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 18px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    text-align: center;
 }
