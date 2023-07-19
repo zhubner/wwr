@@ -377,22 +377,21 @@ h3 {
 }
 
 .part-e {
-    columns: 1/4;
+    grid-column: 1/-1;
     font-family: Zen Kaku Gothic Antique;
     font-size: 75px;
     text-decoration: underline;
     color: white;
     text-align: center;
+    margin-top: 150px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-.emitter-section1 {
-    grid-column: 1/2;
-}
-
-.emitter-section2 {
-    grid-column: 2/3;
+.emitter-section1, .emitter-section2, .emitter-section3, p {
+    color: #9e5648;
+    background-color: #789289;
+    text-align: center;
 }
 
 .part-cg {
@@ -401,6 +400,15 @@ h3 {
     font-size: 75px;
     text-decoration: underline;
     color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.crossguard-section1, .crossguard-section2, .crossguard-section3, p {
+    color: #9e5648;
+    background-color: #789289;
     text-align: center;
 }
 
@@ -411,6 +419,15 @@ h3 {
     text-decoration: underline;
     color: white;
     text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.switch-section1, .switch-section2, .switch-section3, p {
+    color: #9e5648;
+    background-color: #789289;
+    text-align: center;
 }
 
 .part-b {
@@ -419,6 +436,15 @@ h3 {
     font-size: 75px;
     text-decoration: underline;
     color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.body-section1, .body-section2, .body-section3, p {
+    color: #9e5648;
+    background-color: #789289;
     text-align: center;
 }
 
@@ -429,6 +455,15 @@ h3 {
     text-decoration: underline;
     color: white;
     text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.pommel-coupler-section1, .pommel-coupler-section2, .pommel-coupler-section3, p {
+    color: #9e5648;
+    background-color: #789289;
+    text-align: center;
 }
 
 .part-b2 {
@@ -437,6 +472,15 @@ h3 {
     font-size: 75px;
     text-decoration: underline;
     color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.body-section4, .body-section5, .body-section6, p {
+    color: #9e5648;
+    background-color: #789289;
     text-align: center;
 }
 
@@ -447,6 +491,15 @@ h3 {
     text-decoration: underline;
     color: white;
     text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.switch-section4, .switch-section5, .switch-section6, p {
+    color: #9e5648;
+    background-color: #789289;
+    text-align: center;
 }
 
 .part-cg2 {
@@ -456,6 +509,15 @@ h3 {
     text-decoration: underline;
     color: white;
     text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.crossguard-section4, .crossguard-section5, .crossguard-section6, p {
+    color: #9e5648;
+    background-color: #789289;
+    text-align: center;
 }
 
 .part-e2 {
@@ -464,5 +526,14 @@ h3 {
     font-size: 75px;
     text-decoration: underline;
     color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.emitter-section4, .emitter-section5, .emitter-section6, p {
+    color: #9e5648;
+    background-color: #789289;
     text-align: center;
 }
