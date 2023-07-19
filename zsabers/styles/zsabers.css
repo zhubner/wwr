@@ -369,9 +369,100 @@ h3 {
     text-align: center;
 }
 
-.workbench-grid {
+.parts-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 25px;
+}
+
+.part-e {
+    columns: 1/4;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 75px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.emitter-section1 {
+    grid-column: 1/2;
+}
+
+.emitter-section2 {
+    grid-column: 2/3;
+}
+
+.part-cg {
+    grid-column: 1/-1;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 75px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+.part-s {
+    grid-column: 1/-1;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 75px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+.part-b {
+    grid-column: 1/-1;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 75px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+.part-pc {
+    grid-column: 1/-1;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 75px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+.part-b2 {
+    grid-column: 1/-1;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 75px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+.part-s2 {
+    grid-column: 1/-1;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 75px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+.part-cg2 {
+    grid-column: 1/-1;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 75px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+.part-e2 {
+    grid-column: 1/-1;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 75px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
 }
