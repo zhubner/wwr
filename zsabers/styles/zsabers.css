@@ -369,9 +369,9 @@ h3 {
     text-align: center;
 }
 
-.test {
-    margin-left: 50px;
-    margin-right: 50px;
-    display: flex;
-    justify-content: space-between;
+.workbench-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
 }
